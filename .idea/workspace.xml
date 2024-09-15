@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c44bf295-d670-40d3-84b9-06742e5d7640" name="Changes" comment="git com">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GamePanel.java" afterDir="false" />
-    </list>
+    <list default="true" id="c44bf295-d670-40d3-84b9-06742e5d7640" name="Changes" comment="git com" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -104,7 +101,7 @@
       <workItem from="1726399044549" duration="720000" />
       <workItem from="1726399810660" duration="2490000" />
       <workItem from="1726412785264" duration="2637000" />
-      <workItem from="1726418202864" duration="299000" />
+      <workItem from="1726418202864" duration="667000" />
     </task>
     <task id="LOCAL-00001" summary="git com">
       <option name="closed" value="true" />
@@ -114,11 +111,30 @@
       <option name="project" value="LOCAL" />
       <updated>1726417392320</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="git com">
+      <option name="closed" value="true" />
+      <created>1726418523485</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726418523485</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="git init" />
