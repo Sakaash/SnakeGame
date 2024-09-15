@@ -1,0 +1,456 @@
+Index: SnakeGame.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/SnakeGame.iml b/SnakeGame.iml
+new file mode 100644
+--- /dev/null	(date 1723272138249)
++++ b/SnakeGame.iml	(date 1723272138249)
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(date 1723272138259)
++++ b/.idea/modules.xml	(date 1723272138259)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/SnakeGame.iml" filepath="$PROJECT_DIR$/SnakeGame.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(date 1723272138312)
++++ b/.idea/misc.xml	(date 1723272138312)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="temurin-21" project-jdk-type="JavaSDK">
++    <output url="file://$PROJECT_DIR$/out" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+new file mode 100644
+--- /dev/null	(date 1724517691322)
++++ b/.idea/workspace.xml	(date 1724517691322)
+@@ -0,0 +1,94 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="AutoImportSettings">
++    <option name="autoReloadType" value="SELECTIVE" />
++  </component>
++  <component name="ChangeListManager">
++    <list default="true" id="c44bf295-d670-40d3-84b9-06742e5d7640" name="Changes" comment="">
++      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/SnakeGame.iml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/GameFrame.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/GamePanel.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/SnakeGame.java" afterDir="false" />
++    </list>
++    <option name="SHOW_DIALOG" value="false" />
++    <option name="HIGHLIGHT_CONFLICTS" value="true" />
++    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
++    <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="FileTemplateManagerImpl">
++    <option name="RECENT_TEMPLATES">
++      <list>
++        <option value="Class" />
++        <option value="JavaScript File" />
++      </list>
++    </option>
++  </component>
++  <component name="Git.Settings">
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++  </component>
++  <component name="ProjectColorInfo">{
++  &quot;customColor&quot;: &quot;&quot;,
++  &quot;associatedIndex&quot;: 7
++}</component>
++  <component name="ProjectId" id="2kSLf4DAdpBOMxDd0egkTvgyTQ1" />
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
++  <component name="ProjectViewState">
++    <option name="hideEmptyMiddlePackages" value="true" />
++    <option name="showLibraryContents" value="true" />
++  </component>
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;Application.SnakeGame.executor&quot;: &quot;Run&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
++    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
++    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
++    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
++    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
++    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
++    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
++    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/ssaka/IdeaProjects/SnakeGame/src/Main.java&quot;,
++    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
++  }
++}</component>
++  <component name="SharedIndexes">
++    <attachedChunks>
++      <set>
++        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
++        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
++      </set>
++    </attachedChunks>
++  </component>
++  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
++  <component name="TaskManager">
++    <task active="true" id="Default" summary="Default task">
++      <changelist id="c44bf295-d670-40d3-84b9-06742e5d7640" name="Changes" comment="" />
++      <created>1723272133756</created>
++      <option name="number" value="Default" />
++      <option name="presentableId" value="Default" />
++      <updated>1723272133756</updated>
++      <workItem from="1723272134984" duration="4585000" />
++      <workItem from="1723278055301" duration="14462000" />
++      <workItem from="1723557801408" duration="343000" />
++      <workItem from="1723735316883" duration="3000" />
++      <workItem from="1724088863616" duration="793000" />
++      <workItem from="1724093250410" duration="40000" />
++      <workItem from="1724159572118" duration="35000" />
++      <workItem from="1724516736356" duration="943000" />
++    </task>
++    <servers />
++  </component>
++  <component name="TypeScriptGeneratedFilesManager">
++    <option name="version" value="3" />
++  </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="git init" />
++    <MESSAGE value="git com" />
++    <option name="LAST_COMMIT_MESSAGE" value="git com" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1723272138398)
++++ b/.idea/vcs.xml	(date 1723272138398)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.gitignore b/.gitignore
+new file mode 100644
+--- /dev/null	(date 1723272131562)
++++ b/.gitignore	(date 1723272131562)
+@@ -0,0 +1,29 @@
++### IntelliJ IDEA ###
++out/
++!**/src/main/**/out/
++!**/src/test/**/out/
++
++### Eclipse ###
++.apt_generated
++.classpath
++.factorypath
++.project
++.settings
++.springBeans
++.sts4-cache
++bin/
++!**/src/main/**/bin/
++!**/src/test/**/bin/
++
++### NetBeans ###
++/nbproject/private/
++/nbbuild/
++/dist/
++/nbdist/
++/.nb-gradle/
++
++### VS Code ###
++.vscode/
++
++### Mac OS ###
++.DS_Store
+\ No newline at end of file
+Index: src/SnakeGame.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/SnakeGame.java b/src/SnakeGame.java
+new file mode 100644
+--- /dev/null	(date 1723557883755)
++++ b/src/SnakeGame.java	(date 1723557883755)
+@@ -0,0 +1,6 @@
++public class SnakeGame {
++    public static void main(String[] args) {
++        new GameFrame();    //this is an anonymous object
++    }
++}
++
+Index: src/GameFrame.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/GameFrame.java b/src/GameFrame.java
+new file mode 100644
+--- /dev/null	(date 1724088947929)
++++ b/src/GameFrame.java	(date 1724088947929)
+@@ -0,0 +1,14 @@
++import javax.swing.*;
++
++public class GameFrame extends JFrame {
++    GameFrame(){
++        this.add(new GamePanel());
++        this.setTitle("Snake Game");
++        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
++        this.setResizable(false);
++        this.pack();
++        this.setVisible(true);
++        this.setLocationRelativeTo(null);
++
++    }
++}
+Index: src/GamePanel.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/GamePanel.java b/src/GamePanel.java
+new file mode 100644
+--- /dev/null	(date 1724517672297)
++++ b/src/GamePanel.java	(date 1724517672297)
+@@ -0,0 +1,186 @@
++import javax.swing.*;
++import java.awt.*;
++import java.awt.event.*;
++import java.util.Random;
++
++public class GamePanel extends JPanel implements ActionListener {
++
++    static final int WIDTH = 600;
++    static final int HEIGHT = 600;
++    static final int UNIT_SIZE = 30;
++    static final int DELAY = 85;
++    final int[] x = new int[WIDTH];
++    final int[] y = new int[HEIGHT];
++    int bodyParts = 3;
++    int applesEaten = 0;
++    int appleX;
++    int appleY;
++    char direction = 'D';
++    boolean running = false;
++    private Timer timer;
++    private final Random random;
++    private boolean moved;
++
++    GamePanel() {
++        random = new Random();
++        this.setPreferredSize(new Dimension(WIDTH, HEIGHT));
++        this.setBackground(Color.BLACK);
++        this.setFocusable(true);
++        this.addKeyListener(new MyKeyAdapter());
++        startGame();
++        moved = true;
++    }
++
++    public void startGame() {
++        newApple();
++        running = true;
++        timer = new Timer(DELAY+15, this);
++        timer.start();
++
++    }
++
++    public void paint(Graphics g) {
++        super.paint(g);
++        draw(g);
++    }
++
++    public void draw(Graphics g) {
++        if(running){
++//            Optional this is used to draw a grid to visualize the space
++            for (int i = 0; i < WIDTH / UNIT_SIZE; i++) {
++                g.drawLine(i * UNIT_SIZE, 0, i * UNIT_SIZE, HEIGHT);
++                g.drawLine(0, i * UNIT_SIZE, WIDTH, i * UNIT_SIZE);
++            }
++            g.setColor(Color.RED);
++            g.fillOval(appleX, appleY, UNIT_SIZE, UNIT_SIZE);
++            for(int i = 0; i < bodyParts; i++) {
++                if(i==0){
++                    g.setColor(Color.GREEN);
++                    g.fillOval(x[i], y[i], UNIT_SIZE, UNIT_SIZE);
++                }
++                else{
++                    g.setColor(new Color(40,210,15));
++                    g.fillOval(x[i], y[i], UNIT_SIZE, UNIT_SIZE);
++                }
++            }
++            g.setColor(Color.RED);
++            g.setFont(new Font("Monospaced", Font.BOLD, 40));
++            FontMetrics fm = getFontMetrics(g.getFont());
++            g.drawString(""+applesEaten,(WIDTH-fm.stringWidth(""+applesEaten)),g.getFont().getSize());
++        }
++        else
++            gameOver(g);
++
++    }
++
++    public void newApple() {
++        appleX = random.nextInt( (WIDTH / UNIT_SIZE)) * UNIT_SIZE;
++        appleY = random.nextInt( (HEIGHT / UNIT_SIZE)) * UNIT_SIZE;
++    }
++    public void move(){
++        for(int i = bodyParts; i > 0; i--) {
++            x[i] = x[i - 1];
++            y[i] = y[i - 1];
++        }
++        switch (direction) {
++            case 'U' -> y[0] = y[0] - UNIT_SIZE;
++            case 'D' -> y[0] = y[0] + UNIT_SIZE;
++            case 'L' -> x[0] = x[0] - UNIT_SIZE;
++            case 'R' -> x[0] = x[0] + UNIT_SIZE;
++        }
++        moved = true;
++    }
++    public void checkApple(){
++        if(x[0] == appleX && y[0] == appleY){
++            bodyParts++;
++            applesEaten++;
++            newApple();
++        }
++    }
++    public void checkCollisions(){
++
++        for(int i = bodyParts; i > 0; i--) {
++            if(x[0] == x[i] && y[0] == y[i]) {
++                running = false;
++                break;
++            }
++        }
++
++        if(x[0]<0){
++            running = false;
++        }
++        else if(x[0]>=WIDTH){
++            running = false;
++        }
++        else if(y[0]<0){
++            running = false;
++        }
++        else if(y[0]>=HEIGHT){
++            running = false;
++        }
++        if(!running){
++            timer.stop();
++        }
++
++    }
++    public void gameOver(Graphics g){
++        g.setColor(Color.RED);
++        g.setFont(new Font("Monospaced", Font.BOLD, 60));
++        FontMetrics fm = getFontMetrics(g.getFont());
++        g.drawString("Game Over",(WIDTH-fm.stringWidth("Game Over"))/2,(int)(HEIGHT/2.2));
++        g.setFont(new Font("Monospaced", Font.BOLD, 30));
++        FontMetrics fm2 = getFontMetrics(g.getFont());
++        g.drawString("Your Score: "+applesEaten,(WIDTH-fm2.stringWidth("Your Score:  "))/2
++                ,(int) (HEIGHT/1.9));
++        g.setColor(Color.WHITE);
++
++    }
++    @Override
++    public void actionPerformed(ActionEvent e){
++        if(running){
++            move();
++            checkApple();
++            checkCollisions();
++        }
++        repaint();
++    }
++
++    public class MyKeyAdapter extends KeyAdapter {
++        @Override
++        public void keyPressed(KeyEvent e){
++            if(moved) {
++                switch (e.getKeyCode()) {
++
++                    case KeyEvent.VK_UP -> {
++                        if (direction != 'D') {
++                            direction = 'U';
++                            moved = false;
++                        }
++                    }
++                    case KeyEvent.VK_DOWN -> {
++                        if (direction != 'U') {
++                            direction = 'D';
++                            moved = false;
++                        }
++                    }
++                    case KeyEvent.VK_LEFT -> {
++                        if (direction != 'R') {
++                            direction = 'L';
++                            moved = false;
++                        }
++                    }
++                    case KeyEvent.VK_RIGHT -> {
++                        if (direction != 'L') {
++                            direction = 'R';
++                            moved = false;
++                        }
++                    }
++
++                }
++            }
++
++            }
++        }
++    }
++
++
