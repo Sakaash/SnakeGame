@@ -132,9 +132,9 @@ public class GamePanel extends JPanel implements ActionListener {
                 , (int) (HEIGHT / 1.9));
 
         FontMetrics fm3 = getFontMetrics(g.getFont());
-        g.drawString("Press SPACE to Retry.", WIDTH - fm3.stringWidth("Press SPACE to Retry.")/2, (int)(HEIGHT/1.5));
         g.setFont(new Font("Monospaced", Font.BOLD, 30));
-        g.setColor(Color.WHITE);
+        g.drawString("Press SPACE to Retry.", (WIDTH - fm3.stringWidth("Press SPACE to Retry."))/2, (int)(HEIGHT/1.5));
+
     }
     public void resetGame() {
         bodyParts = 3;
